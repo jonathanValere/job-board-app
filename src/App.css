@@ -1,0 +1,25 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+@media (max-width: 1238px) {
+  main {
+    justify-content: space-between;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+  }
+}
